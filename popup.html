@@ -7,13 +7,38 @@
     <style>
       body {
         width: 200px;
-        padding: 10px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      h2 {
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 20px;
       }
 
       button {
         width: 100%;
         padding: 10px;
         margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #b19cd9; /* Light purple color */
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #9b8cb9; /* Slightly darker purple on hover */
+      }
+
+      button:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px rgba(177, 156, 217, 0.5); /* Adds focus outline for accessibility */
       }
     </style>
   </head>

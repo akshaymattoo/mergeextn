@@ -22,7 +22,7 @@ function mergeWindows() {
         .join("\n \n");
 
       const windowsToMerge = prompt(
-        "Enter the numbers of the windows to merge (comma-separated):\n\n" +
+        "Enter the numbers of the windows to merge like ( 1,2,3,.. ) \n\n" +
           windowTitles
       );
 
